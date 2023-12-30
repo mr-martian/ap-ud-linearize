@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linearize>
+  <order>
+    <pair weight="1.0" order="LR">
+      <node rel="det"/>
+      <node rel="amod"/>
+    </pair>
+    <pair weight="1.0" order="RL">
+      <node parent="yes"/>
+      <node rel="det"/>
+    </pair>
+    <pair weight="0.7" order="LR">
+      <node parent="yes"/>
+      <node rel="amod"/>
+    </pair>
+    <pair weight="1.2" order="RL">
+      <node parent="yes"/>
+      <node rel="nsubj" tags="n.*"/>
+    </pair>
+  </order>
+  <reorder>
+  </reorder>
+</linearize>
